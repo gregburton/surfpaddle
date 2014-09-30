@@ -1,3 +1,24 @@
 body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+.header {
+  border-width: 2px;
+  border-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+  border-width: 2px;
+  border-color: black;
+}
+
+.left {
+  border-width: 2px;
+  border-color: black;
+}
+
+.right {
+  border-width: 2px;
+  border-color: black;
 }
