@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   margin: 0;
   padding: 0;
   max-width: 965px;
@@ -59,7 +59,8 @@ body {
   text-align: center;
   display: inline-block; /*for future reference, this removed chrome's 8px of white space at the top */
   width: 965px;
-  font-size: 40px;
+  font-size: 38px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .below_title_text {
@@ -87,6 +88,10 @@ body {
   line-height: 50px;
 }
 
+.byline {
+  font-size: 11px;
+}
+
 .paragraph_1 {
   font-size: 13px;
 }
@@ -99,6 +104,7 @@ body {
 blockquote {
   color: #256B9E;
   font-size: 20px;
+  border-left: 4px solid gray;
 }
 
 .paragraph_3 {
@@ -116,6 +122,15 @@ blockquote {
   padding-right: 120px;
 }
 
+/* .author_photo_right {
+  width: 100px;
+	height: 100px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url(http://rlv.zcache.com/adorable_kitten_square_flat_cards_invitation-r79ad1b7bf482433d844bf0bd53eeffe0_8dnm4_8byvr_324.jpg) no-repeat;
+  }*/
+
 .author_right_name {
   text-align: center;
   color: #256B9E;
@@ -124,16 +139,28 @@ blockquote {
 
 .social_right {
   text-align: center;
-  color: grey;
+  color: gray;
   font-size: 9px;
+}
 
+.picture_right_link {
+/* 205 w by 145 h*/
+text-align: right;
+}
+
+.right a {
+  color: gray;
+  font-size: 11px;
+}
 
 .sidebar_heading {
+  text-align: left;
   color: #256B9E;
   font-size: 14px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .right_paragraph {
   font-size: 13px;
-
+  color: gray;
 }
