@@ -1,8 +1,6 @@
 /* how to make a circle in css: border-radius */
 /* If I run into CSS trouble, could try a reset style sheet to get rid of Chrome shenanigans, such as reset.css or normalize.css (cssreset.com)  */
 
-/* icon for talk bubble...  data-icon="&#x25cc;"  */
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -11,60 +9,97 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  max-width: 965px;
 }
 
 .header {
-  border-width: 2px;
-  border-color: black;
   font-family: 'Oswald', sans-serif;
   background:
     linear-gradient(
-      rgba(31, 82, 127, 0.75),
-      rgba(31, 82, 127, 0.75)
+      rgba(31, 82, 127, 0.66),
+      rgba(31, 82, 127, 0.66)
     ),
     url(http://critterbabies.com/wp-content/gallery/kittens/happy-kitten-kittens-5890512-1600-1200.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 400px;
+  max-width: 965px;
 }
 
 .container {
-
+  width: 965px;
+  margin: 0 auto;
 }
 
 .top_left {
   float: left;
+  /*need to move this like 100 pixels right */
 }
 
 .top_right {
   float: right;
+  /*need to move this like 100 pixels left */
 }
 
 .title_text {
   color: #ffffff;
   text-align: center;
+  display: inline-block; /*for future reference, this removed chrome's 8px of white space at the top */
   width: 965px;
+  font-size: 40px;
+}
+
+.below_title_text {
+  color: #000000;
+  text-align: center;
+  /*need to figure out how to make this text smaller than it currently is */
 }
 
 .wrapper {
-  border-width: 2px;
-  border-color: black;
   width: 965px;
   margin: 0 auto;
   padding: 0;
-
 }
 
 .left {
-  border-width: 2px;
-  border-color: black;
   width: 450px;
   float: left;
+  margin: 55px 0px 0px 0px;
+  padding: 0px 75px 65px 0px;
+  /*need to move this like 100px to the right */
+}
+
+.paragraph_1 {
+
+}
+
+.paragraph_2 {
+
+}
+
+.paragraph_3 {
+
+}
+
+.paragraph_4 {
+
 }
 
 .right {
-  border-width: 2px;
-  border-color: black;
   width: 225px;
   float: right;
+  margin: 55px 0px 0px 0px;
+  padding: 0px;
+  /*need to move this like 100px to the left */
+}
+
+.sidebar_heading {
+
+}
+
+.right_paragraph {
+
 }
