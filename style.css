@@ -1,3 +1,14 @@
+/* how to make a circle in css: border-radius */
+/* If I run into CSS trouble, could try a reset style sheet to get rid of Chrome shenanigans, such as reset.css or normalize.css (cssreset.com)  */
+
+/* icon for talk bubble...  data-icon="&#x25cc;"  */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6,19 +17,54 @@ body {
   border-width: 2px;
   border-color: black;
   font-family: 'Oswald', sans-serif;
+  background:
+    linear-gradient(
+      rgba(31, 82, 127, 0.75),
+      rgba(31, 82, 127, 0.75)
+    ),
+    url(http://critterbabies.com/wp-content/gallery/kittens/happy-kitten-kittens-5890512-1600-1200.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+.container {
+
+}
+
+.top_left {
+  float: left;
+}
+
+.top_right {
+  float: right;
+}
+
+.title_text {
+  color: #ffffff;
+  text-align: center;
+  width: 965px;
 }
 
 .wrapper {
   border-width: 2px;
   border-color: black;
+  width: 965px;
+  margin: 0 auto;
+  padding: 0;
+
 }
 
 .left {
   border-width: 2px;
   border-color: black;
+  width: 450px;
+  float: left;
 }
 
 .right {
   border-width: 2px;
   border-color: black;
+  width: 225px;
+  float: right;
 }
