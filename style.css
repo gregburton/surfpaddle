@@ -3,16 +3,19 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   margin: 0;
   padding: 0;
 }
+
 .total_wrap {
     margin: 0 auto 0 auto;
     max-width: 965px;
 }
+
 .header {
   font-family: 'Oswald', sans-serif;
   background:
@@ -26,11 +29,13 @@ body {
   height: 388px;
   max-width: 965px;
 }
+
 .container {
   width: 965px;
   height: 300px;
   margin: 0 auto;
 }
+
 .top_left {
   font-family: 'Open Sans', sans-serif;
   float: left;
@@ -39,19 +44,23 @@ body {
   padding-top: 8px;
   vertical-align: top;
 }
+
 .top_left_blog {
   padding-top: 15px;
 }
+
 .top_left img {
   width: 17%;
   height: 17%;
 }
+
 .top_right {
   float: right;
   padding-right: 120px;
   font-size: 13px;
   padding-top: 13px;
 }
+
 .title_text {
   color: #ffffff;
   text-align: center;
@@ -63,6 +72,7 @@ body {
   padding-top: 45px;
   height: 188px;
 }
+
 .below_title_text {
   font-family: 'Open Sans', sans-serif;
   color: #000000;
@@ -70,66 +80,81 @@ body {
   font-size: 11px;
   letter-spacing: -.3px;
 }
+
 .wrapper {
   width: 965px;
   margin: 0 auto;
   padding: 0;
 }
+
 .left {
   width: 600px;
   float: left;
   margin: 15px 0px 0px 0px;
   padding-left: 120px;
 }
+
 .left_headline {
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
   line-height: 50px;
   color: #112C3D;
 }
+
 .left_headline h1 {
   padding-bottom: 0px;
 }
+
 .byline {
   font-size: 11px;
 }
+
 .author_left {
   color: #256B9E;
 }
+
 .paragraph_1 {
   font-size: 13px;
 }
+
 .paragraph_2 {
   font-size: 13px;
 }
+
 blockquote {
   color: #256B9E;
   font-size: 20px;
   border-left: 4px solid gray;
 }
+
 .paragraph_3 {
   font-size: 13px;
 }
+
 .paragraph_4 {
   font-size: 13px;
 }
+
 .right {
   width: 325px;
   float: right;
   margin: 55px 0px 0px 0px;
   padding-right: 120px;
 }
-.author_photo_right {
-  align: center;
-}
+
+/*.author_photo_right {*/
+/*  align: center;*/
+/*}*/
+
 .author_right_name {
   text-align: center;
   color: #256B9E;
   font-size: 12px;
-  align: center;
+  /*align: center;*/
 }
+
 .author_right_picture {
-  align: center;
+  /*align: center;*/
   border-radius: 60px;
   background:
   linear-gradient(
@@ -141,11 +166,13 @@ blockquote {
   width: 100px;
   margin: 0px 0 0 50px;
 }
+
 .social_right {
   text-align: center;
   color: gray;
   font-size: 9px;
 }
+
 .picture_right {
   background:
     linear-gradient(
@@ -158,20 +185,24 @@ blockquote {
   height: 145px;
   max-width: 205px;
 }
+
 .picture_right_link {
 /* 205 w by 145 h*/
 text-align: right;
 }
+
 .right a {
   color: gray;
   font-size: 11px;
 }
+
 .sidebar_heading {
   text-align: left;
   color: #256B9E;
   font-size: 13px;
   font-family: 'Oswald', sans-serif;
 }
+
 .right_paragraph {
   font-size: 13px;
   color: gray;
