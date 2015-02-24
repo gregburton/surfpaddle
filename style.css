@@ -122,17 +122,12 @@ blockquote {
   margin: 55px 0px 0px 0px;
   padding-right: 120px;
 }
-.author_photo_right {
-  align: center;
-}
 .author_right_name {
   text-align: center;
   color: #256B9E;
   font-size: 12px;
-  align: center;
 }
 .author_right_picture {
-  align: center;
   border-radius: 60px;
   background:
   linear-gradient(
@@ -162,7 +157,6 @@ blockquote {
   max-width: 205px;
 }
 .picture_right_link {
-/* 205 w by 145 h*/
 text-align: right;
 }
 .right a {
