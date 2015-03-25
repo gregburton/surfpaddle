@@ -12,8 +12,8 @@ body {
 }
 
 .total_wrap {
-    margin: 0 auto 0 auto;
-    max-width: 965px;
+  margin: 0 auto 0 auto;
+  max-width: 965px;
 }
 
 .header {
@@ -64,7 +64,7 @@ body {
 .title_text {
   color: #ffffff;
   text-align: center;
-  display: inline-block; /*for future reference, this removed chrome's 8px of white space at the top */
+  display: inline-block;
   width: 965px;
   font-size: 38px;
   font-family: 'Open Sans', sans-serif;
@@ -142,19 +142,13 @@ blockquote {
   padding-right: 120px;
 }
 
-/*.author_photo_right {*/
-/*  align: center;*/
-/*}*/
-
 .author_right_name {
   text-align: center;
   color: #256B9E;
   font-size: 12px;
-  /*align: center;*/
 }
 
 .author_right_picture {
-  /*align: center;*/
   border-radius: 60px;
   background:
   linear-gradient(
@@ -187,8 +181,7 @@ blockquote {
 }
 
 .picture_right_link {
-/* 205 w by 145 h*/
-text-align: right;
+  text-align: right;
 }
 
 .right a {
